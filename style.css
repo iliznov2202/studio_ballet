@@ -1,0 +1,1008 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 4, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../fonts/Cormorant-VariableFont_wght.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../fonts/Cormorant-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 23, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+html {
+  font-family: "Cormorant";
+  font-weight: regular;
+}
+
+/* line 27, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.container {
+  position: relative;
+  max-width: 1512px;
+  margin: 0 auto;
+}
+
+/* line 32, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.first-section {
+  height: 872px;
+  margin: 0 auto;
+  background-color: #7382B1;
+  overflow: hidden;
+}
+
+/* line 39, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.first-section_header {
+  display: flex;
+  justify-content: space-around;
+  padding: 85px 165px 0px 165px;
+}
+
+/* line 45, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 48, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 85px;
+  font-size: 20px;
+}
+
+/* line 51, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 53, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: #F8F4F0;
+}
+
+/* line 57, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.left-wrapper {
+  width: 580px;
+  height: 290px;
+  margin-left: 165px;
+  flex-direction: column;
+  color: #F8F4F0;
+  position: absolute;
+  top: 200px;
+}
+
+/* line 67, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.big-text {
+  font-size: 120px;
+  font-weight: bold;
+}
+
+/* line 71, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.lil-text {
+  width: 580px;
+  font-size: 25px;
+  color: #454545;
+}
+
+/* line 77, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.first-section__content-container {
+  display: flex;
+  align-items: center;
+}
+
+/* line 82, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.right-wripper_img {
+  width: 647px;
+  height: 802px;
+  position: absolute;
+  top: -50px;
+  right: 50px;
+}
+
+/* line 89, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.ellipse_first {
+  position: absolute;
+  top: -80px;
+  right: -440px;
+  transform: rotate(335deg);
+}
+
+/* line 95, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.ellipse_second {
+  position: absolute;
+  top: 320px;
+  right: -30px;
+  transform: rotate(-2deg);
+}
+
+/* line 101, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.page-wrap {
+  position: absolute;
+  top: 652px;
+  right: 580px;
+  transform: rotate(-17deg);
+  width: 169px;
+  height: 169px;
+  background-color: #7382B1;
+}
+
+/* line 111, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.badge {
+  position: relative;
+  width: 70px;
+  border-radius: 30%;
+  transform: rotate(-50deg);
+}
+
+/* line 117, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.badge-1 {
+  position: relative;
+  width: 100px;
+  height: 180px;
+  border-radius: 60%;
+  transform: rotate(-230deg);
+}
+
+/* line 124, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+h1 span {
+  font: 17px;
+  color: #F8F4F0;
+  height: 80px;
+  position: absolute;
+  width: 20px;
+  left: 0;
+  top: 0;
+  transform-origin: bottom center;
+}
+
+/* line 134, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char1 {
+  transform: rotate(0deg);
+}
+
+/* line 136, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char2 {
+  transform: rotate(5deg);
+}
+
+/* line 138, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char3 {
+  transform: rotate(12deg);
+}
+
+/* line 140, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char4 {
+  transform: rotate(20deg);
+}
+
+/* line 142, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char5 {
+  transform: rotate(28deg);
+}
+
+/* line 144, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char6 {
+  transform: rotate(36deg);
+}
+
+/* line 146, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char7 {
+  transform: rotate(42deg);
+}
+
+/* line 148, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char8 {
+  transform: rotate(49deg);
+}
+
+/* line 150, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char9 {
+  transform: rotate(55deg);
+}
+
+/* line 152, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char10 {
+  transform: rotate(63deg);
+}
+
+/* line 154, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char11 {
+  transform: rotate(70deg);
+}
+
+/* line 156, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char12 {
+  transform: rotate(74deg);
+}
+
+/* line 158, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char13 {
+  transform: rotate(85deg);
+}
+
+/* line 160, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char14 {
+  transform: rotate(91deg);
+}
+
+/* line 162, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char15 {
+  transform: rotate(97deg);
+}
+
+/* line 164, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char16 {
+  transform: rotate(103deg);
+}
+
+/* line 166, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char17 {
+  transform: rotate(112deg);
+}
+
+/* line 168, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char18 {
+  transform: rotate(122deg);
+}
+
+/* line 170, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char19 {
+  transform: rotate(129deg);
+}
+
+/* line 172, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char20 {
+  transform: rotate(136deg);
+}
+
+/* line 174, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.char21 {
+  transform: rotate(145deg);
+}
+
+/* line 177, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.signUp {
+  position: absolute;
+  top: 713px;
+  right: 633px;
+  transform: rotate(-6deg);
+  background-color: #7382B1;
+  border: none;
+  outline: none;
+  z-index: 99;
+}
+
+/* line 187, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.star {
+  height: 41px;
+  width: 43px;
+}
+
+/* line 191, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.first-section_star {
+  position: absolute;
+  top: 317px;
+  right: 1506px;
+}
+
+/* line 196, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.second-section {
+  height: 605px;
+  background-color: #F8F4F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* line 204, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.left_part_text {
+  height: 390px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 103px;
+}
+
+/* line 210, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.left_part_text-title {
+  font-size: 40px;
+  color: #7382B1;
+  margin-bottom: 17px;
+}
+
+/* line 214, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.left_part_text-main-text {
+  font-size: 30px;
+  color: #454545;
+}
+
+/* line 217, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.right-part {
+  z-index: 99;
+}
+
+/* line 220, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.right-part_img {
+  height: 425px;
+  width: 480px;
+}
+
+/* line 224, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.ellipse_third {
+  position: absolute;
+  top: -447px;
+  right: -30px;
+  transform: rotate(-2deg);
+}
+
+/* line 230, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.ellipse_fourth {
+  position: absolute;
+  top: 40px;
+  right: -340px;
+  transform: rotate(340deg);
+}
+
+/* line 236, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.second-section_star {
+  position: absolute;
+  top: 90px;
+  right: 640px;
+}
+
+/* line 241, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.third-section {
+  height: 570px;
+  background-color: #454545;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* line 248, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.third-section_title {
+  width: 700px;
+  color: #F8F4F0;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 50px 0 77px 0;
+}
+
+/* line 254, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.third-section_description {
+  width: 1200px;
+  height: 290px;
+  color: #F8F4F0;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 261, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.description {
+  width: 260px;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* line 265, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.description-title {
+  margin-bottom: 23px;
+}
+
+/* line 267, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.description_img {
+  width: 88px;
+  height: 117px;
+  margin-bottom: 33px;
+}
+
+/* line 272, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.ellipse_fifth {
+  position: absolute;
+  top: -569px;
+  right: -339px;
+  transform: rotate(339.7deg);
+}
+
+/* line 278, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.ellipse_sixth {
+  position: absolute;
+  top: 30px;
+  right: 400px;
+  transform: rotate(-200deg);
+}
+
+/* line 284, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.third-section_star {
+  position: absolute;
+  top: 15px;
+  right: 1030px;
+}
+
+/* line 289, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.fourth-section {
+  background-color: #F8F4F0;
+  height: 842px;
+  overflow: hidden;
+  z-index: 6;
+}
+
+/* line 295, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.ellipse_seventh {
+  position: absolute;
+  top: -569px;
+  right: 324px;
+  transform: rotate(339.7deg);
+  z-index: 7;
+}
+
+/* line 302, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.ellipse_eighth {
+  position: absolute;
+  top: 260px;
+  right: -340px;
+  transform: rotate(-200deg);
+  z-index: 3;
+}
+
+/* line 310, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.fourth-section_title {
+  position: relative;
+  width: 293px;
+  color: #454545;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 77px 0 16px 610px;
+  z-index: 10;
+}
+
+/* line 318, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.fourth-section_directions {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1182px;
+  font-size: 25px;
+  margin-left: 165px;
+  margin-bottom: 41px;
+  z-index: 11;
+}
+
+/* line 328, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.select:hover {
+  color: #7382B1;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* line 333, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.card {
+  position: relative;
+  margin-left: 165px;
+  display: flex;
+  flex-direction: row;
+  z-index: 8;
+}
+
+/* line 340, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.card_text {
+  background-color: #F8F4F0;
+  width: 580px;
+  height: 549px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  border-radius: 0 5px 5px 0;
+}
+
+/* line 350, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.card_text_title {
+  font-size: 30px;
+  margin-bottom: 22px;
+}
+
+/* line 353, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.card_text_main {
+  font-size: 25px;
+  width: 395px;
+  height: 222px;
+}
+
+/* line 358, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.fifth-section {
+  height: 405px;
+  background-color: #7382B1;
+}
+
+/* line 361, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.fifth-section_title {
+  color: #F8F4F0;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 77px 250px 16px 250px;
+}
+
+/* line 367, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.form {
+  background: transparent;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* line 375, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* line 380, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+/* line 387, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */
